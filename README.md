@@ -1,37 +1,17 @@
-## Welcome to GitHub Pages
+ # Random Password Generator 
+## Created by Joe Addamo
 
-You can use the [editor on GitHub](https://github.com/lukewarm513/Password-Generator/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+  * As an employee with access to sensitive data 
+ 
+ * I Want to randomly generate a password that means certain criteria
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+  * When I click the button to generate a password,
+  * Then I am presented with a new password, which gets stored in my last passwords history
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lukewarm513/Password-Generator/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+  ## How it works
+  * I can set the length criteria before generating the password 
+  * the length of the criteria is changed via slider, who's value is dynamically displayed
+  * When I generate a new password, I am provided with a randomly generated assortment of letters, numbers, and symbols that are predefined
+  * I am able to reset the criteria and output fields with the reset generator button
+  * I am able to copy the generated password to my clipboard via the copy password button
+  * I am able to clear the password history via the clear history button
